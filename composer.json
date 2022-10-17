@@ -1,6 +1,9 @@
 {
-    "require": {
-        "michelf/php-markdown": "^2.0",
-        "bramus/router": "^1.6"
-    }
+	"require": {
+		"michelf/php-markdown": "^2.0",
+		"bramus/router": "^1.6"
+	},
+	"scripts": {
+		"run": "php -S localhost:8000"
+	}
 }
